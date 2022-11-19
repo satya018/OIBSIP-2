@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+body {
+
+    background: rgb(82, 242, 217);
+    background: linear-gradient(90deg, rgba(82, 242, 217, 1) 0%, rgba(15, 138, 163, 1) 100%);
+}
+
+.text-center {
+    text-align: center;
+    color: #8d2222;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.caption {
+    font-weight: 600;
+    color: #8d2222;
+}
+
+.thumbnail {
+    background-color: white;
+    border: 2px solid #8b39c5;
+    padding: 5px 10px;
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px 15px #7895B2;
+
+}
+
+
+.About {
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 5rem;
+    color: rgb(82, 242, 217);
+    color: linear-gradient(90deg, rgba(82, 242, 217, 1) 0%, rgba(15, 138, 163, 1) 100%);
+    background-image: url("https://assets.gqindia.com/photos/636380456a7c35abf0ef0294/1:1/w_1600%2Cc_limit/Virat-Kohli_02.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 400;
+
+
+}
+
+.content {
+    padding: 13px;
+}
+
+.About>ul,
+li {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.About>h3 {
+    border-bottom: 2px dotted #F49D1A;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 8px #FF0000;
+    text-align: center;
+
+}
+
+li>strong {
+    color: #DC3535;
+}
+
+blockquote {
+    color: #FB2576;
+    font-weight: 800;
+}
+
+h3 {
+    color: #F49D1A;
+    font-size: 20px;
+    font-weight: 50px;
+}
